@@ -6,7 +6,8 @@ from typing import List
 
 # Third-Party Imports
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.document_loaders import TextLoader, UnstructuredMarkdownLoader
+from langchain_community.document_loaders import TextLoader, UnstructuredMarkdownLoader, PyPDFLoader
+from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
 from langchain_ollama import OllamaEmbeddings
 
@@ -45,13 +46,43 @@ class DocumentIngester:
             path = os.path.join(docs_dir, file)
             try:
                 if file.endswith(".txt"):
-                    loader = TextLoader(path)
+                    loader = TextLoader(path, encoding='utf-8')
+                    documents.extend(loader.load())
+                    logger.debug(f"Loaded TXT: {file}")
+
                 elif file.endswith(".md"):
                     loader = UnstructuredMarkdownLoader(path)
+                    documents.extend(loader.load())
+                    logger.debug(f"Loaded MD: {file}")
+
+                elif file.endswith(".pdf"):
+                    try:
+                        loader = PyPDFLoader(path)
+                        docs = loader.load()
+                        documents.extend(docs)
+                        logger.debug(f"Loaded PDF: {file} ({len(docs)} pages)")
+                    except Exception as e:
+                        logger.error(f"PyPDFLoader failed for {file}: {e}")
+                        # Fallback to pypdf
+                        try:
+                            from pypdf import PdfReader
+                            reader = PdfReader(path)
+                            text = ""
+                            for page in reader.pages:
+                                text += page.extract_text() + "\n"
+                            if text.strip():
+                                documents.append(Document(
+                                    page_content=text,
+                                    metadata={"source": path, "file": file}
+                                ))
+                                logger.debug(f"Loaded PDF via pypdf: {file}")
+                            else:
+                                logger.warning(f"No text extracted from PDF: {file}")
+                        except Exception as e2:
+                            logger.error(f"Failed to load PDF {file}: {e2}")
                 else:
                     continue
-                documents.extend(loader.load())
-                logger.debug(f"Loaded: {file}")
+
             except Exception as e:
                 logger.error(f"Failed to load {file}: {e}")
                 continue
@@ -68,6 +99,10 @@ class DocumentIngester:
     def ingest(self, docs_dir: str = None) -> int:
         """Ingest documents and create vectorstore."""
         docs = self.load_documents(docs_dir)
+
+        if not docs:
+            raise ValueError("No documents loaded. Check docs directory and file formats.")
+
         chunks = self.chunk_documents(docs)
 
         self.vectorstore = FAISS.from_documents(chunks, self.embeddings)

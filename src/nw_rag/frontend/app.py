@@ -6,6 +6,7 @@ import sys
 import json
 import requests
 from typing import Tuple, Dict, Any, Generator
+from pathlib import Path
 
 # Third-Party Imports
 import gradio as gr
@@ -22,6 +23,8 @@ class RAGInterface:
 
     def __init__(self):
         self.api_url = os.getenv("API_URL", "http://localhost:8000/api/v1/query")
+        self.project_root = Path(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+        self.docs_dir = self.project_root / "docs"
         self.local_mode = False
 
         # Check if API is available
@@ -48,6 +51,77 @@ class RAGInterface:
             self.ingester.save_index()
             logger.info(f"Ingested {count} chunks locally")
         self.rag_engine = RAGEngine(self.ingester)
+
+    def _get_file_path(self, source: str) -> str:
+        """Get absolute file path from source string."""
+        # Extract filename from source path
+        if source.startswith('./'):
+            source = source[2:]
+
+        # Get just the filename
+        file_name = Path(source).name
+
+        # Check for PDF first (preferred)
+        pdf_path = self.docs_dir / f"{Path(file_name).stem}.pdf"
+        if pdf_path.exists():
+            return str(pdf_path.absolute())
+
+        # Check for txt
+        txt_path = self.docs_dir / f"{Path(file_name).stem}.txt"
+        if txt_path.exists():
+            return str(txt_path.absolute())
+
+        # Check for md
+        md_path = self.docs_dir / f"{Path(file_name).stem}.md"
+        if md_path.exists():
+            return str(md_path.absolute())
+
+        # Try the original path
+        original_path = self.docs_dir / source
+        if original_path.exists():
+            return str(original_path.absolute())
+
+        return None
+
+    def _format_result_with_links(self, result: Dict[str, Any]) -> str:
+        """Format the response with clickable source links."""
+        answer = result.get('answer', 'No answer')
+
+        if result.get('fallback', False):
+            answer = f"⚠️ {answer}"
+            if result.get('confidence', 0) > 0:
+                answer += f"\n\n**Confidence:** {result['confidence']:.3f}"
+
+        # Add sources with links
+        if result.get('sources'):
+            answer += "\n\n---\n\n### 📚 Sources\n\n"
+            for i, source in enumerate(result['sources'], 1):
+                source_name = source.get('source', 'unknown')
+                score = source.get('score', 0)
+
+                # Clean up source name for display
+                display_name = Path(source_name).name if source_name else 'unknown'
+
+                # Get absolute file path
+                file_path = self._get_file_path(source_name)
+                if file_path:
+                    # Check if it's a PDF for special icon
+                    icon = "📄" if file_path.endswith('.pdf') else "📝"
+                    answer += f"{i}. **{icon} [{display_name}]({file_path})** (score: {score:.3f})\n"
+                else:
+                    answer += f"{i}. **📄 {display_name}** (score: {score:.3f})\n"
+
+        # Add metrics
+        timing = result.get('timing', {})
+        answer += f"\n\n### ⏱️ Metrics\n"
+        answer += f"- Retrieval: {timing.get('retrieval', 0):.3f}s\n"
+        answer += f"- Generation: {timing.get('generation', 0):.3f}s\n"
+        answer += f"- Total: {timing.get('total', 0):.3f}s\n"
+
+        tokens = result.get('tokens', {})
+        answer += f"- Tokens: {tokens.get('prompt', 0) + tokens.get('completion', 0)}"
+
+        return answer
 
     def query_api_stream(self, question: str) -> Generator[str, None, None]:
         """Query the API with streaming."""
@@ -79,7 +153,15 @@ class RAGInterface:
 
             # Yield final with metadata
             if metadata:
-                yield full_answer + self._format_metadata(metadata)
+                result = {
+                    "answer": full_answer,
+                    "sources": metadata.get('sources', []),
+                    "confidence": metadata.get('confidence', 0),
+                    "timing": metadata.get('timing', {}),
+                    "tokens": metadata.get('tokens', {"prompt": 0, "completion": 0}),
+                    "fallback": metadata.get('fallback', False)
+                }
+                yield self._format_result_with_links(result)
 
         except requests.exceptions.RequestException as e:
             logger.error(f"API error: {e}")
@@ -95,7 +177,7 @@ class RAGInterface:
             )
             response.raise_for_status()
             result = response.json()
-            return self._format_result(result)
+            return self._format_result_with_links(result)
 
         except requests.exceptions.RequestException as e:
             logger.error(f"API error: {e}")
@@ -104,83 +186,31 @@ class RAGInterface:
     def query_local(self, question: str, stream: bool = False) -> str:
         """Query locally."""
         result = self.rag_engine.query(question)
-        return self._format_result(result)
+        return self._format_result_with_links(result)
 
-    def _format_result(self, result: Dict[str, Any]) -> str:
-        """Format the response for display."""
-        answer = result.get('answer', 'No answer')
-
-        if result.get('fallback', False):
-            answer = f"⚠️ {answer}"
-            if result.get('confidence', 0) > 0:
-                answer += f"\n\n**Confidence:** {result['confidence']:.3f}"
-
-        # Add sources
-        if result.get('sources'):
-            answer += "\n\n**📚 Sources:**\n"
-            for source in result['sources'][:3]:
-                source_name = source.get('source', 'unknown')
-                score = source.get('score', 0)
-                answer += f"- {source_name} (score: {score:.3f})\n"
-
-        # Add metrics
-        timing = result.get('timing', {})
-        answer += f"\n\n**⏱️ Metrics:**\n"
-        answer += f"- Retrieval: {timing.get('retrieval', 0):.3f}s\n"
-        answer += f"- Generation: {timing.get('generation', 0):.3f}s\n"
-        answer += f"- Total: {timing.get('total', 0):.3f}s\n"
-
-        tokens = result.get('tokens', {})
-        answer += f"- Tokens: {tokens.get('prompt', 0) + tokens.get('completion', 0)}"
-
-        return answer
-
-    def _format_metadata(self, metadata: Dict[str, Any]) -> str:
-        """Format metadata for display."""
-        text = "\n\n"
-
-        if metadata.get('sources'):
-            text += "**📚 Sources:**\n"
-            for source in metadata['sources'][:3]:
-                source_name = source.get('source', 'unknown')
-                score = source.get('score', 0)
-                text += f"- {source_name} (score: {score:.3f})\n"
-
-        timing = metadata.get('timing', {})
-        text += f"\n**⏱️ Metrics:**\n"
-        text += f"- Retrieval: {timing.get('retrieval', 0):.3f}s\n"
-        text += f"- Generation: {timing.get('generation', 0):.3f}s\n"
-        text += f"- Total: {timing.get('total', 0):.3f}s\n"
-        text += f"- Fallback: {'Yes' if metadata.get('fallback', False) else 'No'}"
-
-        return text
-
-    def process_query(self, question: str, stream: bool) -> Tuple[str, str, str]:
+    def process_query(self, question: str, stream: bool) -> str:
         """Process a query and return formatted response."""
         if not question or question.strip() == "":
-            return "Please enter a question.", "", ""
+            return "Please enter a question."
 
         StructuredLogger.log_request(question, stream)
 
         try:
             if self.local_mode:
-                result = self.query_local(question, stream)
-                return result, "", ""
+                return self.query_local(question, stream)
             else:
                 if stream:
-                    # Streaming - return the generator result
                     full_response = ""
                     for chunk in self.query_api_stream(question):
                         full_response = chunk
-                    return full_response, "", ""
+                    return full_response
                 else:
-                    result = self.query_api_nonstream(question)
-                    return result, "", ""
+                    return self.query_api_nonstream(question)
 
         except Exception as e:
             logger.error(f"Query error: {e}")
             StructuredLogger.log_error(e, {"question": question})
-            return f"❌ Error: {str(e)}", "", ""
+            return f"❌ Error: {str(e)}"
 
 
 # Create the Gradio interface
@@ -189,34 +219,45 @@ def create_interface():
 
     rag_interface = RAGInterface()
 
+    # Custom CSS for better source links
+    custom_css = """
+    .gradio-container {
+        max-width: 1200px !important;
+        margin: auto !important;
+    }
+    .header-text {
+        text-align: center !important;
+        font-size: 28px !important;
+        font-weight: bold !important;
+        background: linear-gradient(135deg, #f5af19, #f12711);
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+    }
+    .subheader-text {
+        text-align: center !important;
+        color: #666 !important;
+        margin-bottom: 20px !important;
+    }
+    footer {
+        text-align: center !important;
+        padding: 20px !important;
+        color: #999 !important;
+        font-size: 12px !important;
+    }
+    a {
+        color: #f5af19 !important;
+        text-decoration: none !important;
+    }
+    a:hover {
+        text-decoration: underline !important;
+        color: #f12711 !important;
+    }
+    """
+
     with gr.Blocks(
         title="Aperture Science Document Intelligence",
         theme=gr.themes.Soft(),
-        css="""
-        .gradio-container {
-            max-width: 1200px !important;
-            margin: auto !important;
-        }
-        .header-text {
-            text-align: center !important;
-            font-size: 28px !important;
-            font-weight: bold !important;
-            background: linear-gradient(135deg, #f5af19, #f12711);
-            -webkit-background-clip: text !important;
-            -webkit-text-fill-color: transparent !important;
-        }
-        .subheader-text {
-            text-align: center !important;
-            color: #666 !important;
-            margin-bottom: 20px !important;
-        }
-        footer {
-            text-align: center !important;
-            padding: 20px !important;
-            color: #999 !important;
-            font-size: 12px !important;
-        }
-        """
+        css=custom_css
     ) as demo:
 
         # Header
@@ -226,6 +267,7 @@ def create_interface():
                 <h1 class="header-text">🔬 APERTURE SCIENCE</h1>
                 <h2 class="header-text" style="font-size: 22px;">DOCUMENT INTELLIGENCE</h2>
                 <p class="subheader-text">Ask questions about Aperture Science technologies and documentation</p>
+                <p style="color: #888; font-size: 14px;">📄 Sources link directly to PDF documents in the knowledge base</p>
             </div>
             """
         )
@@ -274,7 +316,7 @@ def create_interface():
             with gr.Column(scale=6):
                 answer_output = gr.Markdown(
                     label="Answer",
-                    value="Ask a question to get started...",
+                    value="Ask a question to get started...\n\n*📄 Sources will appear below with clickable links to PDF documents.*",
                     show_label=True
                 )
 
@@ -283,23 +325,26 @@ def create_interface():
             """
             <footer>
                 <p>Powered by Llama 3.2, FAISS, and Aperture Science Technology</p>
+                <p>📄 Click on source links to open the original PDF documents</p>
                 <p>⚠️ The cake is a lie. Or is it?</p>
             </footer>
             """
         )
 
         # Handle submission
+        def handle_submit(question, stream):
+            return rag_interface.process_query(question, stream)
+
         submit_btn.click(
-            fn=rag_interface.process_query,
+            fn=handle_submit,
             inputs=[question_input, stream_checkbox],
-            outputs=[answer_output, gr.Textbox(visible=False), gr.Textbox(visible=False)]
+            outputs=answer_output
         )
 
-        # Handle enter key
         question_input.submit(
-            fn=rag_interface.process_query,
+            fn=handle_submit,
             inputs=[question_input, stream_checkbox],
-            outputs=[answer_output, gr.Textbox(visible=False), gr.Textbox(visible=False)]
+            outputs=answer_output
         )
 
         # Also handle example button clicks to automatically submit
@@ -309,9 +354,9 @@ def create_interface():
                 inputs=[],
                 outputs=[question_input]
             ).then(
-                fn=rag_interface.process_query,
+                fn=handle_submit,
                 inputs=[question_input, stream_checkbox],
-                outputs=[answer_output, gr.Textbox(visible=False), gr.Textbox(visible=False)]
+                outputs=answer_output
             )
 
     return demo

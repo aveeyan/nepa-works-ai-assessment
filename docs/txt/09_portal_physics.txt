@@ -23,12 +23,12 @@ Portals operate by creating a traversable wormhole between two points in spaceti
 - **Implications**: Fall speed maintains through transit
 
 ### Energy Requirements
-- **Formula**: E = m × c² × (1/2 (v²/c²))
-- **For Portal Gun**: Requires 1.2 × 10¹⁵ watts (Brief exposure)
+- **Formula**: E = m × c^2 × (1/2 (v^2/c^2))
+- **For Portal Gun**: Requires 1.2 × 10^15 watts (Brief exposure)
 
 ### Surface Requirements
 - **Porosity**: >95% moon dust content
-- **Temperature**: Room temperature (20°C optimal)
+- **Temperature**: Room temperature (20 degrees C optimal)
 - **Electrical Resistance**: <0.01 ohms
 
 ## Advanced Applications
