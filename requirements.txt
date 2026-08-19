@@ -5,6 +5,8 @@ uvicorn
 langchain
 langchain-community
 langchain-ollama
+langchain-text-splitters
+langchain-prompts
 faiss-cpu
 python-dotenv
 pypdf
