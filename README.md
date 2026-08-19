@@ -12,6 +12,13 @@ Retrieval-Augmented Generation API for Aperture Science documentation. FAISS + O
 
 ---
 
+## Screenshots
+![Home](docs/images/homepage.png)
+![Query Example](docs/images/query_example.png)
+![Streaming](docs/images/query_stream_example.png)
+
+---
+
 ## Architecture
 
 ![Architecture Diagram](docs/images/architecture.png)
@@ -166,9 +173,11 @@ src/nw_rag/
 ## Testing
 
 ```bash
-python test_ingestion.py
-python test_rag.py
-python test_api.py
+python tests/test_rag.py
+```
+
+```bash
+python src/nw_rag/tests/test_ingestion.py
 ```
 
 ---

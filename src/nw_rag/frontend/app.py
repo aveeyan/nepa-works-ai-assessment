@@ -266,7 +266,6 @@ def create_interface():
                 <h1 class="header-text">🔬 APERTURE SCIENCE</h1>
                 <h2 class="header-text" style="font-size: 22px;">DOCUMENT INTELLIGENCE</h2>
                 <p class="subheader-text">Ask questions about Aperture Science technologies and documentation</p>
-                <p style="color: #888; font-size: 14px;">📄 Click source links to open PDF documents</p>
             </div>
             """
         )
@@ -315,7 +314,7 @@ def create_interface():
             with gr.Column(scale=6):
                 answer_output = gr.Markdown(
                     label="Answer",
-                    value="Ask a question to get started...\n\n*📄 Click source links to open documents*",
+                    value="Ask a question to get started...\n\n",
                     show_label=True
                 )
 
@@ -324,7 +323,6 @@ def create_interface():
             """
             <footer>
                 <p>Powered by Llama 3.2, FAISS, and Aperture Science Technology</p>
-                <p>📄 Click source links to open the original documents</p>
                 <p>⚠️ The cake is a lie. Or is it?</p>
             </footer>
             """
