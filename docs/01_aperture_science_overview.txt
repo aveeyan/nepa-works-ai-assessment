@@ -1,0 +1,22 @@
+# Aperture Science: Company Overview
+
+## Introduction
+Aperture Science is a leading research facility specializing in advanced portal technology, artificial intelligence, and experimental physics. Founded in 1947, we have pioneered groundbreaking discoveries in quantum tunneling and sentient AI development.
+
+## Core Technologies
+1. **Portal Gun (Aperture Science Handheld Portal Device)**: Creates inter-dimensional portals for instantaneous travel
+2. **GLaDOS (Genetic Lifeform and Disk Operating System)**: Advanced AI system for facility management
+3. **Weighted Storage Cube**: Essential testing element with mass distribution properties
+4. **Aperture Science Sentry Turret**: Automated defense system with friendly personality
+
+## Mission Statement
+To push the boundaries of science while maintaining rigorous safety protocols and test subject welfare.
+
+## Key Facilities
+- Enrichment Center (Main Testing Facility)
+- GLaDOS Chamber (AI Core Housing)
+- Portal Device Manufacturing Wing
+- Research & Development Laboratories
+
+## Safety Classification
+All personnel must complete mandatory safety orientation before accessing any testing chambers.

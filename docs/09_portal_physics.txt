@@ -1,0 +1,83 @@
+# Aperture Science Portal Physics: Advanced Technical Documentation
+
+## Introduction
+This document covers advanced physics concepts behind portal technology, intended for senior researchers and facilities engineers.
+
+## Quantum Tunneling Theory
+
+### Basic Principle
+Portals operate by creating a traversable wormhole between two points in spacetime, requiring:
+- Exotic matter concentration (Moon-dust based catalyst)
+- Energy threshold of 1.5 MeV per portal
+- Perfect surface alignment (0.01 degree tolerance)
+
+### Portal Types
+1. **Blue Portal**: Entrance portal (Creates stable wormhole entrance)
+2. **Orange Portal**: Exit portal (Creates stable wormhole exit)
+3. **Quantum Portal**: Dual-ended wormhole (Requires extreme conditions)
+
+## Physics Equations
+
+### Portal Momentum Conservation
+- **Equation**: p_total = p_initial (Momentum preserved through portals)
+- **Implications**: Fall speed maintains through transit
+
+### Energy Requirements
+- **Formula**: E = m × c² × (1/2 (v²/c²))
+- **For Portal Gun**: Requires 1.2 × 10¹⁵ watts (Brief exposure)
+
+### Surface Requirements
+- **Porosity**: >95% moon dust content
+- **Temperature**: Room temperature (20°C optimal)
+- **Electrical Resistance**: <0.01 ohms
+
+## Advanced Applications
+
+### Momentum Transfer
+- Objects retain velocity through portal
+- Enables high-speed travel across distances
+- Utilized for: Rapid delivery, particle acceleration
+
+### Quantum Entanglement
+- Portals are linked through quantum states
+- Information travels instantaneously between portals
+- Phone call possible through portal (If stable enough)
+
+### Bending Light
+- Light refracts through portal edges
+- Creates unique visual distortions
+- Used for: Optical illusions, emergency signaling
+
+## Portal Interaction Mechanics
+
+### Surface Types
+| Surface Type | Portal Capability |
+|--------------|-------------------|
+| Moon-dusted white | Full capability |
+| Standard wall | Limited (Temporary) |
+| Glass | Unsuitable |
+| Moving Platforms | Acceptable (Requires recalibration) |
+
+### Portal Stability Factors
+1. Distance between portals
+2. Atmospheric pressure differentials
+3. Quantum interference patterns
+4. User mood (Handshake protocol)
+
+## Experimental Applications
+
+### Dual-Exit Portals
+- Two exit portals, one entrance
+- Requires advanced quantum splitting
+- Currently in development (Risk of fracturing)
+
+### Time-Dilated Portals
+- Research in temporal manipulation
+- Side effects include: Paradox formation
+- Not approved for civilian use
+
+## Safety Warnings
+- DO NOT create portal to same surface
+- Avoid creation near volatile materials
+- Report any anomalies to GLaDOS
+- Moon-dust surfaces (Must remain clean)
