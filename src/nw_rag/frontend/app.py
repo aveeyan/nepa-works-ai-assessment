@@ -5,6 +5,7 @@ import os
 import sys
 import json
 import requests
+import webbrowser
 from typing import Tuple, Dict, Any, Generator
 from pathlib import Path
 
@@ -54,34 +55,35 @@ class RAGInterface:
 
     def _get_file_path(self, source: str) -> str:
         """Get absolute file path from source string."""
-        # Extract filename from source path
         if source.startswith('./'):
             source = source[2:]
 
-        # Get just the filename
         file_name = Path(source).name
 
-        # Check for PDF first (preferred)
+        # Check for PDF first
         pdf_path = self.docs_dir / f"{Path(file_name).stem}.pdf"
         if pdf_path.exists():
             return str(pdf_path.absolute())
 
-        # Check for txt
         txt_path = self.docs_dir / f"{Path(file_name).stem}.txt"
         if txt_path.exists():
             return str(txt_path.absolute())
 
-        # Check for md
         md_path = self.docs_dir / f"{Path(file_name).stem}.md"
         if md_path.exists():
             return str(md_path.absolute())
 
-        # Try the original path
         original_path = self.docs_dir / source
         if original_path.exists():
             return str(original_path.absolute())
 
         return None
+
+    def _open_file(self, file_path: str):
+        """Open file using system default application."""
+        if file_path and os.path.exists(file_path):
+            webbrowser.open(f"file://{file_path}")
+        return gr.update()
 
     def _format_result_with_links(self, result: Dict[str, Any]) -> str:
         """Format the response with clickable source links."""
@@ -92,22 +94,19 @@ class RAGInterface:
             if result.get('confidence', 0) > 0:
                 answer += f"\n\n**Confidence:** {result['confidence']:.3f}"
 
-        # Add sources with links
+        # Add sources as HTML buttons
         if result.get('sources'):
             answer += "\n\n---\n\n### 📚 Sources\n\n"
             for i, source in enumerate(result['sources'], 1):
                 source_name = source.get('source', 'unknown')
                 score = source.get('score', 0)
-
-                # Clean up source name for display
                 display_name = Path(source_name).name if source_name else 'unknown'
 
-                # Get absolute file path
                 file_path = self._get_file_path(source_name)
                 if file_path:
-                    # Check if it's a PDF for special icon
                     icon = "📄" if file_path.endswith('.pdf') else "📝"
-                    answer += f"{i}. **{icon} [{display_name}]({file_path})** (score: {score:.3f})\n"
+                    # Use HTML with onclick to open file
+                    answer += f'{i}. **{icon} <a href="#" onclick="window.open(\'{file_path}\', \'_blank\'); return false;">{display_name}</a>** (score: {score:.3f})\n'
                 else:
                     answer += f"{i}. **📄 {display_name}** (score: {score:.3f})\n"
 
@@ -151,7 +150,6 @@ class RAGInterface:
                         except json.JSONDecodeError:
                             continue
 
-            # Yield final with metadata
             if metadata:
                 result = {
                     "answer": full_answer,
@@ -219,7 +217,7 @@ def create_interface():
 
     rag_interface = RAGInterface()
 
-    # Custom CSS for better source links
+    # Custom CSS for source links
     custom_css = """
     .gradio-container {
         max-width: 1200px !important;
@@ -247,6 +245,7 @@ def create_interface():
     a {
         color: #f5af19 !important;
         text-decoration: none !important;
+        cursor: pointer !important;
     }
     a:hover {
         text-decoration: underline !important;
@@ -267,7 +266,7 @@ def create_interface():
                 <h1 class="header-text">🔬 APERTURE SCIENCE</h1>
                 <h2 class="header-text" style="font-size: 22px;">DOCUMENT INTELLIGENCE</h2>
                 <p class="subheader-text">Ask questions about Aperture Science technologies and documentation</p>
-                <p style="color: #888; font-size: 14px;">📄 Sources link directly to PDF documents in the knowledge base</p>
+                <p style="color: #888; font-size: 14px;">📄 Click source links to open PDF documents</p>
             </div>
             """
         )
@@ -316,7 +315,7 @@ def create_interface():
             with gr.Column(scale=6):
                 answer_output = gr.Markdown(
                     label="Answer",
-                    value="Ask a question to get started...\n\n*📄 Sources will appear below with clickable links to PDF documents.*",
+                    value="Ask a question to get started...\n\n*📄 Click source links to open documents*",
                     show_label=True
                 )
 
@@ -325,7 +324,7 @@ def create_interface():
             """
             <footer>
                 <p>Powered by Llama 3.2, FAISS, and Aperture Science Technology</p>
-                <p>📄 Click on source links to open the original PDF documents</p>
+                <p>📄 Click source links to open the original documents</p>
                 <p>⚠️ The cake is a lie. Or is it?</p>
             </footer>
             """

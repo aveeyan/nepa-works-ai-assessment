@@ -77,8 +77,7 @@ async def root():
 async def health():
     """Health check endpoint."""
     return {
-        "status": "healthy",
-        "model": "llama3.2:3b"
+        "status": "healthy"
     }
 
 

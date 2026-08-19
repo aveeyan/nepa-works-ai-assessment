@@ -560,3 +560,76 @@ Aperture Science is a leading research facility spec...
 2026-08-19 17:04:21.860 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What is the portal gun?... | Response Length: 1387 chars | Time: 5.620s | Prompt Tokens: 530 | Completion Tokens: 317
 2026-08-19 17:04:21.860 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 5.658s | Retrieval: 0.036s | Generation: 5.620s
 2026-08-19 17:04:21.860 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 5.658s | Retrieval: 0.036s | Generation: 5.620s
+2026-08-19 17:10:34.062 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 17:10:34.062 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 17:10:34.849 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 17:10:34.860 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 17:10:34.861 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 17:10:34.861 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 17:10:34.861 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 17:12:39.692 | INFO     | nw_rag.frontend.app:__init__:34 - Connected to RAG API
+2026-08-19 17:12:51.093 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: What is the portal gun? | Stream: False
+2026-08-19 17:12:51.095 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 36b7ac4e | Question: What is the portal gun? | Stream: False
+2026-08-19 17:12:51.096 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: 36b7ac4e | Client: 127.0.0.1
+2026-08-19 17:12:51.096 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: 5d0266f1
+2026-08-19 17:12:51.096 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 5d0266f1 | Question: What is the portal gun? | Stream: False
+2026-08-19 17:12:54.036 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: What is the portal gun?...
+2026-08-19 17:12:54.036 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: What is the portal gun?... | Results: 3 | Time: 2.940s
+2026-08-19 17:12:54.036 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/02_portal_gun_operation.pdf | Score: 0.461 | Content: Aperture Science Handheld Portal Device (ASHPD) - Operation Manual
+Device Overview
+The Aperture Scie...
+2026-08-19 17:12:54.037 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/01_aperture_science_overview.pdf | Score: 0.626 | Content: Aperture Science: Company Overview
+Introduction
+Aperture Science is a leading research facility spec...
+2026-08-19 17:12:54.037 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/09_portal_physics.pdf | Score: 0.687 | Content: Energy Requirements
+**Formula**: E = m × c^2 × (1/2 (v^2/c^2))
+**For Portal Gun**: Requires 1.2 × 10...
+2026-08-19 17:12:59.290 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What is the portal gun?... | Response Length: 667 chars | Time: 5.253s | Prompt Tokens: 530 | Completion Tokens: 148
+2026-08-19 17:12:59.290 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 8.195s | Retrieval: 2.940s | Generation: 5.253s
+2026-08-19 17:12:59.291 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 8.195s | Retrieval: 2.940s | Generation: 5.253s
+2026-08-19 17:14:04.145 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 17:14:04.145 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 17:14:05.016 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 17:14:05.027 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 17:14:05.027 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 17:14:05.027 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 17:14:05.028 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 17:14:08.200 | INFO     | nw_rag.frontend.app:__init__:35 - Connected to RAG API
+2026-08-19 17:14:15.802 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: What is the portal gun? | Stream: False
+2026-08-19 17:14:15.807 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: ad622b2f | Question: What is the portal gun? | Stream: False
+2026-08-19 17:14:15.807 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: ad622b2f | Client: 127.0.0.1
+2026-08-19 17:14:15.807 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: 1c50a54a
+2026-08-19 17:14:15.807 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 1c50a54a | Question: What is the portal gun? | Stream: False
+2026-08-19 17:14:15.842 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: What is the portal gun?...
+2026-08-19 17:14:15.842 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: What is the portal gun?... | Results: 3 | Time: 0.035s
+2026-08-19 17:14:15.842 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/02_portal_gun_operation.pdf | Score: 0.461 | Content: Aperture Science Handheld Portal Device (ASHPD) - Operation Manual
+Device Overview
+The Aperture Scie...
+2026-08-19 17:14:15.842 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/01_aperture_science_overview.pdf | Score: 0.626 | Content: Aperture Science: Company Overview
+Introduction
+Aperture Science is a leading research facility spec...
+2026-08-19 17:14:15.843 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/09_portal_physics.pdf | Score: 0.687 | Content: Energy Requirements
+**Formula**: E = m × c^2 × (1/2 (v^2/c^2))
+**For Portal Gun**: Requires 1.2 × 10...
+2026-08-19 17:14:18.591 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What is the portal gun?... | Response Length: 667 chars | Time: 2.748s | Prompt Tokens: 530 | Completion Tokens: 149
+2026-08-19 17:14:18.591 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 2.784s | Retrieval: 0.035s | Generation: 2.748s
+2026-08-19 17:14:18.591 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 2.784s | Retrieval: 0.035s | Generation: 2.748s
+2026-08-19 17:14:18.597 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: What is the portal gun? | Stream: False
+2026-08-19 17:14:18.599 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: b668d9af | Question: What is the portal gun? | Stream: False
+2026-08-19 17:14:18.599 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: b668d9af | Client: 127.0.0.1
+2026-08-19 17:14:18.600 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: c14b0128
+2026-08-19 17:14:18.600 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: c14b0128 | Question: What is the portal gun? | Stream: False
+2026-08-19 17:14:18.626 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: What is the portal gun?...
+2026-08-19 17:14:18.626 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: What is the portal gun?... | Results: 3 | Time: 0.026s
+2026-08-19 17:14:18.627 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/02_portal_gun_operation.pdf | Score: 0.461 | Content: Aperture Science Handheld Portal Device (ASHPD) - Operation Manual
+Device Overview
+The Aperture Scie...
+2026-08-19 17:14:18.627 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/01_aperture_science_overview.pdf | Score: 0.626 | Content: Aperture Science: Company Overview
+Introduction
+Aperture Science is a leading research facility spec...
+2026-08-19 17:14:18.627 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/09_portal_physics.pdf | Score: 0.687 | Content: Energy Requirements
+**Formula**: E = m × c^2 × (1/2 (v^2/c^2))
+**For Portal Gun**: Requires 1.2 × 10...
+2026-08-19 17:14:21.339 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What is the portal gun?... | Response Length: 667 chars | Time: 2.712s | Prompt Tokens: 530 | Completion Tokens: 149
+2026-08-19 17:14:21.339 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 2.739s | Retrieval: 0.026s | Generation: 2.712s
+2026-08-19 17:14:21.339 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 2.739s | Retrieval: 0.026s | Generation: 2.712s
