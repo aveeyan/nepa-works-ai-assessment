@@ -89,7 +89,7 @@ curl -X POST http://localhost:8000/api/v1/query \
 
 ### GET /health
 ```json
-{"status": "healthy", "model": "llama3.2:3b"}
+{"status": "healthy"}
 ```
 
 ---
