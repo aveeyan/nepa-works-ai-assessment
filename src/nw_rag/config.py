@@ -17,3 +17,5 @@ class Config:
     FAISS_INDEX_PATH = os.getenv("FAISS_INDEX_PATH", "./faiss_index")
     DOCS_DIR = os.getenv("DOCS_DIR", "./docs")
     ALLOW_DANGEROUS_DESERIALIZATION = True
+
+    LOG_FORMAT = "<green>{time:YYYY-MM-DD HH:mm:ss.SSS}</green> | <level>{level: <8}</level> | <cyan>{name}</cyan>:<cyan>{function}</cyan>:<cyan>{line}</cyan> - <level>{message}</level>"

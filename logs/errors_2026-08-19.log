@@ -1,0 +1,2 @@
+2026-08-19 16:42:34.169 | ERROR    | nw_rag.frontend.app:query_api:65 - API error: Expecting value: line 1 column 1 (char 0)
+2026-08-19 16:42:41.209 | ERROR    | nw_rag.frontend.app:query_api:65 - API error: Expecting value: line 1 column 1 (char 0)

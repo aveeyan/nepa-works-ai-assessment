@@ -2,20 +2,23 @@
 
 # Standard Imports
 import os
-from typing import List, Tuple
+from typing import List
 
 # Third-Party Imports
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import TextLoader, UnstructuredMarkdownLoader
-from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
 from langchain_ollama import OllamaEmbeddings
 
 # Local Imports
-from nw_rag.config import Config  # Changed to relative import
+from nw_rag.config import Config
+from nw_rag.core.retrieval import VectorRetriever
+from nw_rag.logging_config import logger
+
 
 class DocumentIngester:
-    """Handles the ingestion of documents, including loading, splitting, and embedding."""
+    """Handles document ingestion and vectorstore creation."""
+
     def __init__(self):
         self.embeddings = OllamaEmbeddings(
             base_url=Config.OLLAMA_BASE_URL,
@@ -28,9 +31,10 @@ class DocumentIngester:
             length_function=len
         )
         self.vectorstore = None
+        self.retriever = VectorRetriever()
 
     def load_documents(self, docs_dir: str = None) -> List[Document]:
-        """Loads documents from the specified directory."""
+        """Load documents from directory."""
         docs_dir = docs_dir or Config.DOCS_DIR
         documents = []
 
@@ -39,51 +43,60 @@ class DocumentIngester:
 
         for file in os.listdir(docs_dir):
             path = os.path.join(docs_dir, file)
-            if file.endswith(".txt"):
-                loader = TextLoader(path)
-            elif file.endswith(".md"):
-                loader = UnstructuredMarkdownLoader(path)
-            else:
+            try:
+                if file.endswith(".txt"):
+                    loader = TextLoader(path)
+                elif file.endswith(".md"):
+                    loader = UnstructuredMarkdownLoader(path)
+                else:
+                    continue
+                documents.extend(loader.load())
+                logger.debug(f"Loaded: {file}")
+            except Exception as e:
+                logger.error(f"Failed to load {file}: {e}")
                 continue
-            documents.extend(loader.load())
 
+        logger.info(f"Loaded {len(documents)} documents from {docs_dir}")
         return documents
 
     def chunk_documents(self, documents: List[Document]) -> List[Document]:
-        """Splits documents into chunks."""
-        return self.splitter.split_documents(documents)
+        """Split documents into chunks."""
+        chunks = self.splitter.split_documents(documents)
+        logger.info(f"Created {len(chunks)} chunks from {len(documents)} documents")
+        return chunks
 
     def ingest(self, docs_dir: str = None) -> int:
-        """Ingests documents from the specified directory."""
+        """Ingest documents and create vectorstore."""
         docs = self.load_documents(docs_dir)
         chunks = self.chunk_documents(docs)
 
         self.vectorstore = FAISS.from_documents(chunks, self.embeddings)
+        self.retriever.set_vectorstore(self.vectorstore)
+
+        logger.info(f"Indexed {len(chunks)} chunks")
         return len(chunks)
 
     def save_index(self, path: str = None) -> bool:
-        """Saves the vectorstore index to disk."""
+        """Save vectorstore to disk."""
         path = path or Config.FAISS_INDEX_PATH
-        if self.vectorstore is not None:
-            self.vectorstore.save_local(path)
-            return True
-        return False
+        return self.retriever.save_index(path)
 
     def load_index(self, path: str = None) -> bool:
-        """Loads the vectorstore index from disk."""
+        """Load vectorstore from disk."""
         path = path or Config.FAISS_INDEX_PATH
-        if os.path.exists(path):
-            self.vectorstore = FAISS.load_local(
-                path,
-                self.embeddings,
-                allow_dangerous_deserialization=Config.ALLOW_DANGEROUS_DESERIALIZATION
-            )
-            return True
-        return False
+        success = self.retriever.load_index(path)
+        if success:
+            self.vectorstore = self.retriever.vectorstore
+        return success
 
-    def retrieve(self, query: str, k: int = None) -> List[Tuple[Document, float]]:
-        """Retrieves the top-k documents for a given query."""
-        k = k or Config.TOP_K
-        if not self.vectorstore:
-            raise ValueError("Vectorstore not initialized. Run ingest() first.")
-        return self.vectorstore.similarity_search_with_score(query, k=k)
+    def retrieve(self, query: str, k: int = None) -> List:
+        """Retrieve documents for a query."""
+        return self.retriever.retrieve(query, k)
+
+    def retrieve_with_threshold(self, query: str, k: int = None, threshold: float = None) -> List:
+        """Retrieve documents with threshold filtering."""
+        return self.retriever.retrieve_with_threshold(query, k, threshold)
+
+    def get_top_score(self, query: str) -> float:
+        """Get highest similarity score for a query."""
+        return self.retriever.get_top_score(query)
