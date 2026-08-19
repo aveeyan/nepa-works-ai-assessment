@@ -1,0 +1,635 @@
+2026-08-19 16:30:23.542 | INFO     | nw_rag.logging_config:log_system_event:137 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:30:23.542 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:30:23.542 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:30:23.542 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:30:36.077 | INFO     | nw_rag.logging_config:log_system_event:137 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:30:36.078 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:30:36.845 | INFO     | nw_rag.logging_config:log_system_event:137 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:30:36.845 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:30:36.845 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:30:36.845 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:30:37.047 | INFO     | nw_rag.logging_config:log_system_event:137 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:30:37.047 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:30:37.828 | INFO     | nw_rag.logging_config:log_system_event:137 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:30:37.829 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:30:37.829 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:30:37.829 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:31:28.597 | INFO     | nw_rag.logging_config:log_system_event:137 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:31:28.597 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:31:29.427 | INFO     | nw_rag.logging_config:log_system_event:137 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:31:29.428 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:31:29.428 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:31:29.428 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:31:52.794 | INFO     | nw_rag.logging_config:log_system_event:137 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:31:52.794 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:31:53.573 | INFO     | nw_rag.logging_config:log_system_event:137 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:31:53.574 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:31:53.574 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:31:53.574 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:32:01.498 | INFO     | nw_rag.logging_config:log_system_event:137 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:32:01.498 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:32:43.881 | INFO     | nw_rag.logging_config:log_system_event:139 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:32:43.882 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:32:43.882 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:32:43.882 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:32:51.002 | INFO     | nw_rag.logging_config:log_system_event:139 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:32:51.002 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:32:51.741 | INFO     | nw_rag.logging_config:log_system_event:139 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:32:51.741 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:32:51.741 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:32:51.742 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:32:54.250 | INFO     | nw_rag.logging_config:log_system_event:139 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:32:54.250 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:32:55.004 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:32:55.004 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:32:55.004 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:32:55.004 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:34:17.466 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:34:17.466 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:34:18.235 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:34:18.235 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:34:18.235 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:34:18.235 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:34:29.864 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:34:29.864 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:34:30.632 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 16:34:30.643 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:34:30.644 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:34:30.644 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:34:30.644 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:34:39.467 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:34:39.468 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:34:40.259 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 16:34:40.272 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:34:40.272 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:34:40.272 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:34:40.272 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:34:52.710 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:34:52.710 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:34:53.488 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 16:34:53.500 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:34:53.500 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:34:53.500 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:34:53.500 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:35:12.262 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:35:12.262 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:35:12.997 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 16:35:13.009 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:35:13.009 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:35:13.009 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:35:13.009 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:35:23.140 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:35:23.140 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:35:27.422 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 16:35:27.434 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:35:27.434 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:35:27.434 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:35:27.434 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:36:12.173 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:36:12.173 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:36:12.930 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 16:36:12.942 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:36:12.942 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:36:12.942 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:36:12.942 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:36:23.771 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:36:23.771 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:36:27.721 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 16:36:27.733 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:36:27.733 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:36:27.734 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:36:27.734 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:36:33.066 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: ee2b5b15 | Question: What is the portal gun? | Stream: False
+2026-08-19 16:36:33.066 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: ee2b5b15 | Client: 127.0.0.1
+2026-08-19 16:36:33.066 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: e99b389c
+2026-08-19 16:36:33.066 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: e99b389c | Question: What is the portal gun? | Stream: False
+2026-08-19 16:36:35.966 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: What is the portal gun?...
+2026-08-19 16:36:35.967 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: What is the portal gun?... | Results: 3 | Time: 2.900s
+2026-08-19 16:36:35.967 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/02_portal_gun_operation.txt | Score: 0.473 | Content: # Aperture Science Handheld Portal Device (ASHPD) - Operation Manual
+
+## Device Overview
+The Apertur...
+2026-08-19 16:36:35.967 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/01_aperture_science_overview.txt | Score: 0.649 | Content: ## Core Technologies
+1. **Portal Gun (Aperture Science Handheld Portal Device)**: Creates inter-dime...
+2026-08-19 16:36:35.967 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/09_portal_physics.txt | Score: 0.676 | Content: ### Energy Requirements
+- **Formula**: E = m × c² × (1/2 (v²/c²))
+- **For Portal Gun**: Requires 1.2...
+2026-08-19 16:36:39.700 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What is the portal gun?... | Response Length: 209 chars | Time: 3.733s | Prompt Tokens: 461 | Completion Tokens: 41
+2026-08-19 16:36:39.700 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.473 | Fallback: False | Sources: 3 | Total Time: 6.634s | Retrieval: 2.900s | Generation: 3.733s
+2026-08-19 16:36:39.701 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.473 | Fallback: False | Sources: 3 | Total Time: 6.634s | Retrieval: 2.900s | Generation: 3.733s
+2026-08-19 16:40:30.572 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:40:30.572 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:40:31.325 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 16:40:31.337 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:40:31.337 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:40:31.337 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:40:31.337 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:40:59.220 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:40:59.220 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:40:59.974 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 16:40:59.986 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:40:59.986 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:40:59.986 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:40:59.986 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:42:14.931 | INFO     | nw_rag.frontend.app:__init__:36 - Connected to RAG API
+2026-08-19 16:42:24.091 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: How do I handle a weighted storage cube? | Stream: False
+2026-08-19 16:42:24.094 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 7f1dfaf0 | Question: How do I handle a weighted storage cube? | Stream: False
+2026-08-19 16:42:24.094 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: 7f1dfaf0 | Client: 127.0.0.1
+2026-08-19 16:42:24.094 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: 837469f0
+2026-08-19 16:42:24.094 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 837469f0 | Question: How do I handle a weighted storage cube? | Stream: False
+2026-08-19 16:42:27.096 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: How do I handle a weighted storage cube?...
+2026-08-19 16:42:27.096 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: How do I handle a weighted storage cube?... | Results: 3 | Time: 3.001s
+2026-08-19 16:42:27.096 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/05_weighted_storage_cube.txt | Score: 0.481 | Content: # Aperture Science Weighted Storage Cube: Handling and Usage Guide
+
+## Product Overview
+The Weighted...
+2026-08-19 16:42:27.096 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/05_weighted_storage_cube.txt | Score: 0.792 | Content: ## Usage Instructions
+
+### Basic Operation
+1. **Lifting**: Use both hands on designated grip points
+...
+2026-08-19 16:42:27.096 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/08_test_chamber_construction.txt | Score: 0.816 | Content: ## Special Considerations
+- Keep companion cube access points open
+- Ensure weight cubes are availab...
+2026-08-19 16:42:30.714 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: How do I handle a weighted storage cube? | Stream: True
+2026-08-19 16:42:31.971 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: How do I handle a weighted storage cube?... | Response Length: 589 chars | Time: 4.875s | Prompt Tokens: 353 | Completion Tokens: 134
+2026-08-19 16:42:31.971 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.481 | Fallback: False | Sources: 3 | Total Time: 7.877s | Retrieval: 3.001s | Generation: 4.875s
+2026-08-19 16:42:31.972 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.481 | Fallback: False | Sources: 3 | Total Time: 7.877s | Retrieval: 3.001s | Generation: 4.875s
+2026-08-19 16:42:31.973 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 6f715fb3 | Question: How do I handle a weighted storage cube? | Stream: True
+2026-08-19 16:42:31.973 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: 6f715fb3 | Client: 127.0.0.1
+2026-08-19 16:42:31.973 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.481 | Fallback: False | Sources: 3 | Total Time: 7.877s | Retrieval: 3.001s | Generation: 4.875s
+2026-08-19 16:42:31.973 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: 9e6a6383
+2026-08-19 16:42:31.973 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 9e6a6383 | Question: How do I handle a weighted storage cube? | Stream: False
+2026-08-19 16:42:32.007 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: How do I handle a weighted storage cube?...
+2026-08-19 16:42:32.007 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: How do I handle a weighted storage cube?... | Results: 3 | Time: 0.034s
+2026-08-19 16:42:32.007 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/05_weighted_storage_cube.txt | Score: 0.481 | Content: # Aperture Science Weighted Storage Cube: Handling and Usage Guide
+
+## Product Overview
+The Weighted...
+2026-08-19 16:42:32.008 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/05_weighted_storage_cube.txt | Score: 0.792 | Content: ## Usage Instructions
+
+### Basic Operation
+1. **Lifting**: Use both hands on designated grip points
+...
+2026-08-19 16:42:32.008 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/08_test_chamber_construction.txt | Score: 0.816 | Content: ## Special Considerations
+- Keep companion cube access points open
+- Ensure weight cubes are availab...
+2026-08-19 16:42:34.157 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: How do I handle a weighted storage cube?... | Response Length: 563 chars | Time: 2.150s | Prompt Tokens: 353 | Completion Tokens: 119
+2026-08-19 16:42:34.158 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.481 | Fallback: False | Sources: 3 | Total Time: 2.185s | Retrieval: 0.034s | Generation: 2.150s
+2026-08-19 16:42:34.158 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.481 | Fallback: False | Sources: 3 | Total Time: 2.185s | Retrieval: 0.034s | Generation: 2.150s
+2026-08-19 16:42:34.169 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: streaming... | Response Length: 563 chars | Time: 2.150s | Prompt Tokens: 353 | Completion Tokens: 119
+2026-08-19 16:42:34.169 | ERROR    | nw_rag.frontend.app:query_api:65 - API error: Expecting value: line 1 column 1 (char 0)
+2026-08-19 16:42:34.170 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.000 | Fallback: True | Sources: 0 | Total Time: 0.000s | Retrieval: 0.000s | Generation: 0.000s
+2026-08-19 16:42:39.009 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: How do I handle a weighted storage cube? | Stream: True
+2026-08-19 16:42:39.012 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: bf5fad3b | Question: How do I handle a weighted storage cube? | Stream: True
+2026-08-19 16:42:39.012 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: bf5fad3b | Client: 127.0.0.1
+2026-08-19 16:42:39.012 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: b3f00c7a
+2026-08-19 16:42:39.012 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: b3f00c7a | Question: How do I handle a weighted storage cube? | Stream: False
+2026-08-19 16:42:39.037 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: How do I handle a weighted storage cube?...
+2026-08-19 16:42:39.037 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: How do I handle a weighted storage cube?... | Results: 3 | Time: 0.025s
+2026-08-19 16:42:39.037 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/05_weighted_storage_cube.txt | Score: 0.481 | Content: # Aperture Science Weighted Storage Cube: Handling and Usage Guide
+
+## Product Overview
+The Weighted...
+2026-08-19 16:42:39.037 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/05_weighted_storage_cube.txt | Score: 0.792 | Content: ## Usage Instructions
+
+### Basic Operation
+1. **Lifting**: Use both hands on designated grip points
+...
+2026-08-19 16:42:39.037 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/08_test_chamber_construction.txt | Score: 0.816 | Content: ## Special Considerations
+- Keep companion cube access points open
+- Ensure weight cubes are availab...
+2026-08-19 16:42:41.202 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: How do I handle a weighted storage cube?... | Response Length: 563 chars | Time: 2.165s | Prompt Tokens: 353 | Completion Tokens: 119
+2026-08-19 16:42:41.203 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.481 | Fallback: False | Sources: 3 | Total Time: 2.191s | Retrieval: 0.025s | Generation: 2.165s
+2026-08-19 16:42:41.203 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.481 | Fallback: False | Sources: 3 | Total Time: 2.191s | Retrieval: 0.025s | Generation: 2.165s
+2026-08-19 16:42:41.209 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: streaming... | Response Length: 563 chars | Time: 2.165s | Prompt Tokens: 353 | Completion Tokens: 119
+2026-08-19 16:42:41.209 | ERROR    | nw_rag.frontend.app:query_api:65 - API error: Expecting value: line 1 column 1 (char 0)
+2026-08-19 16:42:41.210 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.000 | Fallback: True | Sources: 0 | Total Time: 0.000s | Retrieval: 0.000s | Generation: 0.000s
+2026-08-19 16:43:28.307 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:43:28.308 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:43:29.092 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 16:43:29.106 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:43:29.106 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:43:29.106 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:43:29.107 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:43:37.618 | INFO     | nw_rag.frontend.app:__init__:31 - Connected to RAG API
+2026-08-19 16:43:49.946 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: How do I handle a weighted storage cube? | Stream: True
+2026-08-19 16:43:49.948 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 2ef9cd97 | Question: How do I handle a weighted storage cube? | Stream: True
+2026-08-19 16:43:49.948 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: 2ef9cd97 | Client: 127.0.0.1
+2026-08-19 16:43:49.949 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: 6ee8866f
+2026-08-19 16:43:49.949 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 6ee8866f | Question: How do I handle a weighted storage cube? | Stream: False
+2026-08-19 16:43:49.985 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: How do I handle a weighted storage cube?...
+2026-08-19 16:43:49.985 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: How do I handle a weighted storage cube?... | Results: 3 | Time: 0.036s
+2026-08-19 16:43:49.985 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/05_weighted_storage_cube.txt | Score: 0.481 | Content: # Aperture Science Weighted Storage Cube: Handling and Usage Guide
+
+## Product Overview
+The Weighted...
+2026-08-19 16:43:49.985 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/05_weighted_storage_cube.txt | Score: 0.792 | Content: ## Usage Instructions
+
+### Basic Operation
+1. **Lifting**: Use both hands on designated grip points
+...
+2026-08-19 16:43:49.985 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/08_test_chamber_construction.txt | Score: 0.816 | Content: ## Special Considerations
+- Keep companion cube access points open
+- Ensure weight cubes are availab...
+2026-08-19 16:43:52.153 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: How do I handle a weighted storage cube?... | Response Length: 563 chars | Time: 2.168s | Prompt Tokens: 353 | Completion Tokens: 119
+2026-08-19 16:43:52.154 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.481 | Fallback: False | Sources: 3 | Total Time: 2.205s | Retrieval: 0.036s | Generation: 2.168s
+2026-08-19 16:43:52.154 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.481 | Fallback: False | Sources: 3 | Total Time: 2.205s | Retrieval: 0.036s | Generation: 2.168s
+2026-08-19 16:43:52.165 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: streaming... | Response Length: 563 chars | Time: 2.168s | Prompt Tokens: 353 | Completion Tokens: 119
+2026-08-19 16:44:01.357 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: Tell me about GLaDOS | Stream: True
+2026-08-19 16:44:01.360 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: a510a41e | Question: Tell me about GLaDOS | Stream: True
+2026-08-19 16:44:01.360 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: a510a41e | Client: 127.0.0.1
+2026-08-19 16:44:01.360 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: 834996fa
+2026-08-19 16:44:01.360 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 834996fa | Question: Tell me about GLaDOS | Stream: False
+2026-08-19 16:44:01.390 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: Tell me about GLaDOS...
+2026-08-19 16:44:01.390 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: Tell me about GLaDOS... | Results: 3 | Time: 0.029s
+2026-08-19 16:44:01.390 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/03_glados_ai_system.txt | Score: 0.486 | Content: # GLaDOS: Genetic Lifeform and Disk Operating System
+
+## System Overview
+GLaDOS is Aperture Science'...
+2026-08-19 16:44:01.390 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/07_emergency_procedures.txt | Score: 0.726 | Content: ### Class 4: GLaDOS Malfunction
+- **Response**: Proceed to emergency testing chamber
+- **Alarm**: GL...
+2026-08-19 16:44:01.390 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/10_cake_recipe_classified.txt | Score: 0.727 | Content: ---
+
+## Important Notes
+- Cake must be completed before GLaDOS review
+- Do not accept cake from GLaD...
+2026-08-19 16:44:06.330 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: Tell me about GLaDOS... | Response Length: 1263 chars | Time: 4.939s | Prompt Tokens: 394 | Completion Tokens: 275
+2026-08-19 16:44:06.330 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.486 | Fallback: False | Sources: 3 | Total Time: 4.970s | Retrieval: 0.029s | Generation: 4.939s
+2026-08-19 16:44:06.330 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.486 | Fallback: False | Sources: 3 | Total Time: 4.970s | Retrieval: 0.029s | Generation: 4.939s
+2026-08-19 16:44:06.341 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: streaming... | Response Length: 1263 chars | Time: 4.939s | Prompt Tokens: 394 | Completion Tokens: 275
+2026-08-19 16:44:20.043 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: What is the cake recipe? | Stream: True
+2026-08-19 16:44:20.046 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 136b9a1d | Question: What is the cake recipe? | Stream: True
+2026-08-19 16:44:20.046 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: 136b9a1d | Client: 127.0.0.1
+2026-08-19 16:44:20.047 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: df49cd17
+2026-08-19 16:44:20.047 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: df49cd17 | Question: What is the cake recipe? | Stream: False
+2026-08-19 16:44:20.079 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: What is the cake recipe?...
+2026-08-19 16:44:20.079 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: What is the cake recipe?... | Results: 3 | Time: 0.033s
+2026-08-19 16:44:20.080 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/10_cake_recipe_classified.txt | Score: 0.585 | Content: ### Step 2: Dry Mix
+1. In a large bowl, sift flour, sugar, cocoa powder, baking soda, baking powder,...
+2026-08-19 16:44:20.080 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/10_cake_recipe_classified.txt | Score: 0.605 | Content: ### Frosting Ingredients
+- 1 cup Heavy Cream
+- 250g Dark Chocolate (70% cocoa)
+- 0.5 cup Unsalted Bu...
+2026-08-19 16:44:20.080 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/10_cake_recipe_classified.txt | Score: 0.618 | Content: # Aperture Science Classified Cake Recipe
+
+## IMPORTANT NOTICE
+This document is classified under Ape...
+2026-08-19 16:44:24.100 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What is the cake recipe?... | Response Length: 814 chars | Time: 4.020s | Prompt Tokens: 431 | Completion Tokens: 218
+2026-08-19 16:44:24.100 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.585 | Fallback: False | Sources: 3 | Total Time: 4.054s | Retrieval: 0.033s | Generation: 4.020s
+2026-08-19 16:44:24.100 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.585 | Fallback: False | Sources: 3 | Total Time: 4.054s | Retrieval: 0.033s | Generation: 4.020s
+2026-08-19 16:44:24.110 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: streaming... | Response Length: 814 chars | Time: 4.020s | Prompt Tokens: 431 | Completion Tokens: 218
+2026-08-19 16:44:49.487 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: What are the safety protocols? | Stream: True
+2026-08-19 16:44:49.490 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 7cb00c6a | Question: What are the safety protocols? | Stream: True
+2026-08-19 16:44:49.490 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: 7cb00c6a | Client: 127.0.0.1
+2026-08-19 16:44:49.490 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: bb623490
+2026-08-19 16:44:49.490 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: bb623490 | Question: What are the safety protocols? | Stream: False
+2026-08-19 16:44:49.525 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: What are the safety protocols?...
+2026-08-19 16:44:49.526 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: What are the safety protocols?... | Results: 3 | Time: 0.035s
+2026-08-19 16:44:49.526 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/03_glados_ai_system.txt | Score: 0.596 | Content: ## Important Safety Protocols
+- Morality Core must remain active at all times
+- Regular core backup ...
+2026-08-19 16:44:49.526 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/04_safety_protocols.txt | Score: 0.677 | Content: ## In-Test Safety Rules
+
+### DO
+- Follow AI instructions immediately
+- Use portals strategically
+- S...
+2026-08-19 16:44:49.526 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/04_safety_protocols.txt | Score: 0.684 | Content: # Aperture Science Test Subject Safety Guidelines
+
+## Introduction
+Test subject safety is our top pr...
+2026-08-19 16:44:51.975 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What are the safety protocols?... | Response Length: 603 chars | Time: 2.449s | Prompt Tokens: 403 | Completion Tokens: 126
+2026-08-19 16:44:51.976 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.596 | Fallback: False | Sources: 3 | Total Time: 2.486s | Retrieval: 0.035s | Generation: 2.449s
+2026-08-19 16:44:51.976 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.596 | Fallback: False | Sources: 3 | Total Time: 2.486s | Retrieval: 0.035s | Generation: 2.449s
+2026-08-19 16:44:51.982 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: streaming... | Response Length: 603 chars | Time: 2.449s | Prompt Tokens: 403 | Completion Tokens: 126
+2026-08-19 16:44:58.351 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: What are the safety protocols for Google Mail? | Stream: True
+2026-08-19 16:44:58.354 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 1d249361 | Question: What are the safety protocols for Google Mail? | Stream: True
+2026-08-19 16:44:58.355 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: 1d249361 | Client: 127.0.0.1
+2026-08-19 16:44:58.355 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: c839c0e0
+2026-08-19 16:44:58.355 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: c839c0e0 | Question: What are the safety protocols for Google Mail? | Stream: False
+2026-08-19 16:44:58.382 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: What are the safety protocols for Google Mail?...
+2026-08-19 16:44:58.382 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: What are the safety protocols for Google Mail?... | Results: 3 | Time: 0.027s
+2026-08-19 16:44:58.382 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/04_safety_protocols.txt | Score: 0.728 | Content: ## In-Test Safety Rules
+
+### DO
+- Follow AI instructions immediately
+- Use portals strategically
+- S...
+2026-08-19 16:44:58.382 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/03_glados_ai_system.txt | Score: 0.747 | Content: ## Important Safety Protocols
+- Morality Core must remain active at all times
+- Regular core backup ...
+2026-08-19 16:44:58.382 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/04_safety_protocols.txt | Score: 0.754 | Content: # Aperture Science Test Subject Safety Guidelines
+
+## Introduction
+Test subject safety is our top pr...
+2026-08-19 16:44:59.657 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What are the safety protocols for Google Mail?... | Response Length: 310 chars | Time: 1.275s | Prompt Tokens: 406 | Completion Tokens: 57
+2026-08-19 16:44:59.658 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.728 | Fallback: False | Sources: 3 | Total Time: 1.303s | Retrieval: 0.027s | Generation: 1.275s
+2026-08-19 16:44:59.658 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.728 | Fallback: False | Sources: 3 | Total Time: 1.303s | Retrieval: 0.027s | Generation: 1.275s
+2026-08-19 16:44:59.662 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: streaming... | Response Length: 310 chars | Time: 1.275s | Prompt Tokens: 406 | Completion Tokens: 57
+2026-08-19 16:51:36.201 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 27907d37 | Question: What is the portal gun colors? | Stream: False
+2026-08-19 16:51:36.202 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: 27907d37 | Client: 127.0.0.1
+2026-08-19 16:51:36.202 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: 6fdcd5c7
+2026-08-19 16:51:36.202 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 6fdcd5c7 | Question: What is the portal gun colors? | Stream: False
+2026-08-19 16:51:39.180 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: What is the portal gun colors?...
+2026-08-19 16:51:39.181 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: What is the portal gun colors?... | Results: 3 | Time: 2.978s
+2026-08-19 16:51:39.181 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/02_portal_gun_operation.txt | Score: 0.667 | Content: # Aperture Science Handheld Portal Device (ASHPD) - Operation Manual
+
+## Device Overview
+The Apertur...
+2026-08-19 16:51:39.181 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/02_portal_gun_operation.txt | Score: 0.795 | Content: ## Operating Instructions
+
+### Step 1: Power On
+- Press the green activation button on the handle
+- ...
+2026-08-19 16:51:39.181 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/01_aperture_science_overview.txt | Score: 0.802 | Content: ## Core Technologies
+1. **Portal Gun (Aperture Science Handheld Portal Device)**: Creates inter-dime...
+2026-08-19 16:51:43.082 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What is the portal gun colors?... | Response Length: 305 chars | Time: 3.901s | Prompt Tokens: 430 | Completion Tokens: 67
+2026-08-19 16:51:43.082 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.667 | Fallback: False | Sources: 3 | Total Time: 6.880s | Retrieval: 2.978s | Generation: 3.901s
+2026-08-19 16:51:43.082 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.667 | Fallback: False | Sources: 3 | Total Time: 6.880s | Retrieval: 2.978s | Generation: 3.901s
+2026-08-19 16:55:14.904 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:55:14.904 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:55:15.701 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 16:55:15.712 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:55:15.713 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:55:15.713 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:55:15.713 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:55:17.719 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:55:17.719 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:55:18.519 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 16:55:18.531 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:55:18.531 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:55:18.531 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:55:18.531 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:58:20.153 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:58:20.153 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 16:58:20.932 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 16:58:20.944 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 16:58:20.944 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 16:58:20.944 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 16:58:20.944 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 16:58:32.571 | INFO     | nw_rag.frontend.app:__init__:33 - Connected to RAG API
+2026-08-19 16:58:39.273 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: How do I handle a weighted storage cube? | Stream: False
+2026-08-19 16:58:39.278 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: e80dcd4d | Question: How do I handle a weighted storage cube? | Stream: False
+2026-08-19 16:58:39.278 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: e80dcd4d | Client: 127.0.0.1
+2026-08-19 16:58:39.278 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: 22dc8c50
+2026-08-19 16:58:39.278 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 22dc8c50 | Question: How do I handle a weighted storage cube? | Stream: False
+2026-08-19 16:58:42.311 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: How do I handle a weighted storage cube?...
+2026-08-19 16:58:42.312 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: How do I handle a weighted storage cube?... | Results: 3 | Time: 3.033s
+2026-08-19 16:58:42.312 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/05_weighted_storage_cube.txt | Score: 0.481 | Content: # Aperture Science Weighted Storage Cube: Handling and Usage Guide
+
+## Product Overview
+The Weighted...
+2026-08-19 16:58:42.312 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/05_weighted_storage_cube.txt | Score: 0.792 | Content: ## Usage Instructions
+
+### Basic Operation
+1. **Lifting**: Use both hands on designated grip points
+...
+2026-08-19 16:58:42.312 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/08_test_chamber_construction.txt | Score: 0.816 | Content: ## Special Considerations
+- Keep companion cube access points open
+- Ensure weight cubes are availab...
+2026-08-19 16:58:50.176 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: How do I handle a weighted storage cube?... | Response Length: 1283 chars | Time: 7.864s | Prompt Tokens: 426 | Completion Tokens: 285
+2026-08-19 16:58:50.176 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.481 | Fallback: False | Sources: 3 | Total Time: 10.898s | Retrieval: 3.033s | Generation: 7.864s
+2026-08-19 16:58:50.177 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.481 | Fallback: False | Sources: 3 | Total Time: 10.898s | Retrieval: 3.033s | Generation: 7.864s
+2026-08-19 16:58:51.967 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: How do I handle a weighted storage cube? | Stream: False
+2026-08-19 16:58:51.969 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: ade89321 | Question: How do I handle a weighted storage cube? | Stream: False
+2026-08-19 16:58:51.969 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: ade89321 | Client: 127.0.0.1
+2026-08-19 16:58:51.969 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: 0310b360
+2026-08-19 16:58:51.969 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 0310b360 | Question: How do I handle a weighted storage cube? | Stream: False
+2026-08-19 16:58:52.001 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: How do I handle a weighted storage cube?...
+2026-08-19 16:58:52.001 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: How do I handle a weighted storage cube?... | Results: 3 | Time: 0.032s
+2026-08-19 16:58:52.001 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/05_weighted_storage_cube.txt | Score: 0.481 | Content: # Aperture Science Weighted Storage Cube: Handling and Usage Guide
+
+## Product Overview
+The Weighted...
+2026-08-19 16:58:52.001 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/05_weighted_storage_cube.txt | Score: 0.792 | Content: ## Usage Instructions
+
+### Basic Operation
+1. **Lifting**: Use both hands on designated grip points
+...
+2026-08-19 16:58:52.001 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/08_test_chamber_construction.txt | Score: 0.816 | Content: ## Special Considerations
+- Keep companion cube access points open
+- Ensure weight cubes are availab...
+2026-08-19 16:58:58.042 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: How do I handle a weighted storage cube?... | Response Length: 1470 chars | Time: 6.041s | Prompt Tokens: 426 | Completion Tokens: 346
+2026-08-19 16:58:58.042 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.481 | Fallback: False | Sources: 3 | Total Time: 6.073s | Retrieval: 0.032s | Generation: 6.041s
+2026-08-19 16:58:58.042 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.481 | Fallback: False | Sources: 3 | Total Time: 6.073s | Retrieval: 0.032s | Generation: 6.041s
+2026-08-19 16:59:57.884 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 16:59:57.884 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 17:00:05.778 | ERROR    | nw_rag.core.retrieval:load_index:111 - Failed to load index from ./faiss_index: Error in faiss::FileIOReader::FileIOReader(const char*) at /project/faiss/impl/io.cpp:69: Error: 'f' failed: could not open faiss_index/index.faiss for reading: No such file or directory
+2026-08-19 17:00:05.778 | INFO     | nw_rag.api.routes:<module>:25 - Building index...
+2026-08-19 17:00:05.779 | INFO     | nw_rag.core.ingestion:load_documents:59 - Loaded 0 documents from ./docs
+2026-08-19 17:00:05.779 | INFO     | nw_rag.core.ingestion:chunk_documents:65 - Created 0 chunks from 0 documents
+2026-08-19 17:00:20.434 | ERROR    | nw_rag.core.retrieval:load_index:111 - Failed to load index from ./faiss_index: Error in faiss::FileIOReader::FileIOReader(const char*) at /project/faiss/impl/io.cpp:69: Error: 'f' failed: could not open faiss_index/index.faiss for reading: No such file or directory
+2026-08-19 17:00:20.435 | INFO     | nw_rag.api.routes:<module>:25 - Building index...
+2026-08-19 17:00:20.435 | INFO     | nw_rag.core.ingestion:load_documents:60 - Loaded 0 documents from ./docs
+2026-08-19 17:00:20.435 | INFO     | nw_rag.core.ingestion:chunk_documents:66 - Created 0 chunks from 0 documents
+2026-08-19 17:00:24.367 | ERROR    | nw_rag.core.retrieval:load_index:111 - Failed to load index from ./faiss_index: Error in faiss::FileIOReader::FileIOReader(const char*) at /project/faiss/impl/io.cpp:69: Error: 'f' failed: could not open faiss_index/index.faiss for reading: No such file or directory
+2026-08-19 17:00:24.367 | INFO     | nw_rag.api.routes:<module>:25 - Building index...
+2026-08-19 17:00:24.367 | INFO     | nw_rag.core.ingestion:load_documents:60 - Loaded 0 documents from ./docs
+2026-08-19 17:00:24.368 | INFO     | nw_rag.core.ingestion:chunk_documents:66 - Created 0 chunks from 0 documents
+2026-08-19 17:01:42.415 | ERROR    | nw_rag.core.retrieval:load_index:111 - Failed to load index from ./faiss_index: Error in faiss::FileIOReader::FileIOReader(const char*) at /project/faiss/impl/io.cpp:69: Error: 'f' failed: could not open faiss_index/index.faiss for reading: No such file or directory
+2026-08-19 17:01:42.415 | INFO     | nw_rag.api.routes:<module>:25 - Building index...
+2026-08-19 17:01:42.472 | DEBUG    | nw_rag.core.ingestion:load_documents:63 - Loaded PDF: 01_aperture_science_overview.pdf (1 pages)
+2026-08-19 17:01:42.476 | DEBUG    | nw_rag.core.ingestion:load_documents:63 - Loaded PDF: 02_portal_gun_operation.pdf (2 pages)
+2026-08-19 17:01:42.480 | DEBUG    | nw_rag.core.ingestion:load_documents:63 - Loaded PDF: 03_glados_ai_system.pdf (2 pages)
+2026-08-19 17:01:42.485 | DEBUG    | nw_rag.core.ingestion:load_documents:63 - Loaded PDF: 04_safety_protocols.pdf (2 pages)
+2026-08-19 17:01:42.490 | DEBUG    | nw_rag.core.ingestion:load_documents:63 - Loaded PDF: 05_weighted_storage_cube.pdf (2 pages)
+2026-08-19 17:01:42.496 | DEBUG    | nw_rag.core.ingestion:load_documents:63 - Loaded PDF: 06_sentry_turret.pdf (2 pages)
+2026-08-19 17:01:42.501 | DEBUG    | nw_rag.core.ingestion:load_documents:63 - Loaded PDF: 07_emergency_procedures.pdf (2 pages)
+2026-08-19 17:01:42.507 | DEBUG    | nw_rag.core.ingestion:load_documents:63 - Loaded PDF: 08_test_chamber_construction.pdf (2 pages)
+2026-08-19 17:01:42.515 | DEBUG    | nw_rag.core.ingestion:load_documents:63 - Loaded PDF: 10_cake_recipe_classified.pdf (3 pages)
+2026-08-19 17:01:42.522 | DEBUG    | nw_rag.core.ingestion:load_documents:63 - Loaded PDF: 09_portal_physics.pdf (2 pages)
+2026-08-19 17:01:42.522 | INFO     | nw_rag.core.ingestion:load_documents:90 - Loaded 20 documents from ./docs
+2026-08-19 17:01:42.523 | INFO     | nw_rag.core.ingestion:chunk_documents:96 - Created 52 chunks from 20 documents
+2026-08-19 17:01:42.969 | INFO     | nw_rag.core.ingestion:ingest:111 - Indexed 52 chunks
+2026-08-19 17:01:42.970 | INFO     | nw_rag.core.retrieval:save_index:124 - Saved index to ./faiss_index
+2026-08-19 17:01:42.970 | INFO     | nw_rag.api.routes:<module>:28 - Ingested 52 chunks
+2026-08-19 17:01:42.980 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 17:01:42.980 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 17:01:42.980 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 17:01:42.980 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 17:01:47.394 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: What is the portal gun? | Stream: False
+2026-08-19 17:01:47.398 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: cd708c24 | Question: What is the portal gun? | Stream: False
+2026-08-19 17:01:47.398 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: cd708c24 | Client: 127.0.0.1
+2026-08-19 17:01:47.398 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: 6882ddbd
+2026-08-19 17:01:47.398 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 6882ddbd | Question: What is the portal gun? | Stream: False
+2026-08-19 17:01:47.424 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: What is the portal gun?...
+2026-08-19 17:01:47.424 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: What is the portal gun?... | Results: 3 | Time: 0.025s
+2026-08-19 17:01:47.424 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/02_portal_gun_operation.pdf | Score: 0.461 | Content: Aperture Science Handheld Portal Device (ASHPD) - Operation Manual
+Device Overview
+The Aperture Scie...
+2026-08-19 17:01:47.425 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/01_aperture_science_overview.pdf | Score: 0.626 | Content: Aperture Science: Company Overview
+Introduction
+Aperture Science is a leading research facility spec...
+2026-08-19 17:01:47.425 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/09_portal_physics.pdf | Score: 0.687 | Content: Energy Requirements
+**Formula**: E = m × c^2 × (1/2 (v^2/c^2))
+**For Portal Gun**: Requires 1.2 × 10...
+2026-08-19 17:01:51.288 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What is the portal gun?... | Response Length: 906 chars | Time: 3.863s | Prompt Tokens: 530 | Completion Tokens: 202
+2026-08-19 17:01:51.288 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 3.890s | Retrieval: 0.025s | Generation: 3.863s
+2026-08-19 17:01:51.288 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 3.890s | Retrieval: 0.025s | Generation: 3.863s
+2026-08-19 17:01:52.603 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: What is the portal gun? | Stream: False
+2026-08-19 17:01:52.605 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 41bb763e | Question: What is the portal gun? | Stream: False
+2026-08-19 17:01:52.605 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: 41bb763e | Client: 127.0.0.1
+2026-08-19 17:01:52.605 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: e33e9028
+2026-08-19 17:01:52.605 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: e33e9028 | Question: What is the portal gun? | Stream: False
+2026-08-19 17:01:52.632 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: What is the portal gun?...
+2026-08-19 17:01:52.633 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: What is the portal gun?... | Results: 3 | Time: 0.027s
+2026-08-19 17:01:52.633 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/02_portal_gun_operation.pdf | Score: 0.461 | Content: Aperture Science Handheld Portal Device (ASHPD) - Operation Manual
+Device Overview
+The Aperture Scie...
+2026-08-19 17:01:52.633 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/01_aperture_science_overview.pdf | Score: 0.626 | Content: Aperture Science: Company Overview
+Introduction
+Aperture Science is a leading research facility spec...
+2026-08-19 17:01:52.633 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/09_portal_physics.pdf | Score: 0.687 | Content: Energy Requirements
+**Formula**: E = m × c^2 × (1/2 (v^2/c^2))
+**For Portal Gun**: Requires 1.2 × 10...
+2026-08-19 17:01:55.345 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What is the portal gun?... | Response Length: 667 chars | Time: 2.711s | Prompt Tokens: 530 | Completion Tokens: 149
+2026-08-19 17:01:55.345 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 2.740s | Retrieval: 0.027s | Generation: 2.711s
+2026-08-19 17:01:55.345 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 2.740s | Retrieval: 0.027s | Generation: 2.711s
+2026-08-19 17:02:46.058 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 17:02:46.058 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 17:02:46.892 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 17:02:46.904 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 17:02:46.904 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 17:02:46.904 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 17:02:46.904 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 17:02:54.299 | INFO     | nw_rag.frontend.app:__init__:33 - Connected to RAG API
+2026-08-19 17:02:57.297 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: What is the portal gun? | Stream: False
+2026-08-19 17:02:57.299 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: beda1682 | Question: What is the portal gun? | Stream: False
+2026-08-19 17:02:57.299 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: beda1682 | Client: 127.0.0.1
+2026-08-19 17:02:57.300 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: beecd3d1
+2026-08-19 17:02:57.300 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: beecd3d1 | Question: What is the portal gun? | Stream: False
+2026-08-19 17:02:57.336 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: What is the portal gun?...
+2026-08-19 17:02:57.336 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: What is the portal gun?... | Results: 3 | Time: 0.036s
+2026-08-19 17:02:57.336 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/02_portal_gun_operation.pdf | Score: 0.461 | Content: Aperture Science Handheld Portal Device (ASHPD) - Operation Manual
+Device Overview
+The Aperture Scie...
+2026-08-19 17:02:57.336 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/01_aperture_science_overview.pdf | Score: 0.626 | Content: Aperture Science: Company Overview
+Introduction
+Aperture Science is a leading research facility spec...
+2026-08-19 17:02:57.336 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/09_portal_physics.pdf | Score: 0.687 | Content: Energy Requirements
+**Formula**: E = m × c^2 × (1/2 (v^2/c^2))
+**For Portal Gun**: Requires 1.2 × 10...
+2026-08-19 17:03:00.097 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What is the portal gun?... | Response Length: 667 chars | Time: 2.760s | Prompt Tokens: 530 | Completion Tokens: 149
+2026-08-19 17:03:00.097 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 2.797s | Retrieval: 0.036s | Generation: 2.760s
+2026-08-19 17:03:00.097 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 2.797s | Retrieval: 0.036s | Generation: 2.760s
+2026-08-19 17:03:03.203 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: What are the emergency procedures? | Stream: False
+2026-08-19 17:03:03.205 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: e24efaad | Question: What are the emergency procedures? | Stream: False
+2026-08-19 17:03:03.205 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: e24efaad | Client: 127.0.0.1
+2026-08-19 17:03:03.205 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: 74142cc8
+2026-08-19 17:03:03.205 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 74142cc8 | Question: What are the emergency procedures? | Stream: False
+2026-08-19 17:03:03.231 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: What are the emergency procedures?...
+2026-08-19 17:03:03.231 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: What are the emergency procedures?... | Results: 3 | Time: 0.026s
+2026-08-19 17:03:03.232 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/07_emergency_procedures.pdf | Score: 0.530 | Content: Aperture Science Emergency Evacuation Protocol
+Overview
+This document outlines emergency procedures ...
+2026-08-19 17:03:03.232 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/07_emergency_procedures.pdf | Score: 0.733 | Content: Personnel check-in with supervisor
+Missing personnel reported immediately
+Step 4: Evacuation Transpo...
+2026-08-19 17:03:03.232 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/07_emergency_procedures.pdf | Score: 0.753 | Content: **Alarm**: GLaDOS voice: "This is a test"
+**Assembly Point**: Designated by Morality Core
+Evacuation...
+2026-08-19 17:03:08.254 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What are the emergency procedures?... | Response Length: 1218 chars | Time: 5.022s | Prompt Tokens: 519 | Completion Tokens: 274
+2026-08-19 17:03:08.254 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.530 | Fallback: False | Sources: 3 | Total Time: 5.049s | Retrieval: 0.026s | Generation: 5.022s
+2026-08-19 17:03:08.255 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.530 | Fallback: False | Sources: 3 | Total Time: 5.049s | Retrieval: 0.026s | Generation: 5.022s
+2026-08-19 17:03:58.968 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 17:03:58.969 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 17:03:59.777 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 17:03:59.789 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 17:03:59.789 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 17:03:59.789 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 17:03:59.789 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 17:04:08.166 | INFO     | nw_rag.frontend.app:__init__:34 - Connected to RAG API
+2026-08-19 17:04:16.199 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: What is the portal gun? | Stream: False
+2026-08-19 17:04:16.202 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 49dce0d3 | Question: What is the portal gun? | Stream: False
+2026-08-19 17:04:16.202 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: 49dce0d3 | Client: 127.0.0.1
+2026-08-19 17:04:16.202 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: c03e19fc
+2026-08-19 17:04:16.203 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: c03e19fc | Question: What is the portal gun? | Stream: False
+2026-08-19 17:04:16.239 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: What is the portal gun?...
+2026-08-19 17:04:16.239 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: What is the portal gun?... | Results: 3 | Time: 0.036s
+2026-08-19 17:04:16.239 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/02_portal_gun_operation.pdf | Score: 0.461 | Content: Aperture Science Handheld Portal Device (ASHPD) - Operation Manual
+Device Overview
+The Aperture Scie...
+2026-08-19 17:04:16.239 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/01_aperture_science_overview.pdf | Score: 0.626 | Content: Aperture Science: Company Overview
+Introduction
+Aperture Science is a leading research facility spec...
+2026-08-19 17:04:16.239 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/09_portal_physics.pdf | Score: 0.687 | Content: Energy Requirements
+**Formula**: E = m × c^2 × (1/2 (v^2/c^2))
+**For Portal Gun**: Requires 1.2 × 10...
+2026-08-19 17:04:21.860 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What is the portal gun?... | Response Length: 1387 chars | Time: 5.620s | Prompt Tokens: 530 | Completion Tokens: 317
+2026-08-19 17:04:21.860 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 5.658s | Retrieval: 0.036s | Generation: 5.620s
+2026-08-19 17:04:21.860 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 5.658s | Retrieval: 0.036s | Generation: 5.620s
+2026-08-19 17:10:34.062 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 17:10:34.062 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 17:10:34.849 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 17:10:34.860 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 17:10:34.861 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 17:10:34.861 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 17:10:34.861 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 17:12:39.692 | INFO     | nw_rag.frontend.app:__init__:34 - Connected to RAG API
+2026-08-19 17:12:51.093 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: What is the portal gun? | Stream: False
+2026-08-19 17:12:51.095 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 36b7ac4e | Question: What is the portal gun? | Stream: False
+2026-08-19 17:12:51.096 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: 36b7ac4e | Client: 127.0.0.1
+2026-08-19 17:12:51.096 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: 5d0266f1
+2026-08-19 17:12:51.096 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 5d0266f1 | Question: What is the portal gun? | Stream: False
+2026-08-19 17:12:54.036 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: What is the portal gun?...
+2026-08-19 17:12:54.036 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: What is the portal gun?... | Results: 3 | Time: 2.940s
+2026-08-19 17:12:54.036 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/02_portal_gun_operation.pdf | Score: 0.461 | Content: Aperture Science Handheld Portal Device (ASHPD) - Operation Manual
+Device Overview
+The Aperture Scie...
+2026-08-19 17:12:54.037 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/01_aperture_science_overview.pdf | Score: 0.626 | Content: Aperture Science: Company Overview
+Introduction
+Aperture Science is a leading research facility spec...
+2026-08-19 17:12:54.037 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/09_portal_physics.pdf | Score: 0.687 | Content: Energy Requirements
+**Formula**: E = m × c^2 × (1/2 (v^2/c^2))
+**For Portal Gun**: Requires 1.2 × 10...
+2026-08-19 17:12:59.290 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What is the portal gun?... | Response Length: 667 chars | Time: 5.253s | Prompt Tokens: 530 | Completion Tokens: 148
+2026-08-19 17:12:59.290 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 8.195s | Retrieval: 2.940s | Generation: 5.253s
+2026-08-19 17:12:59.291 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 8.195s | Retrieval: 2.940s | Generation: 5.253s
+2026-08-19 17:14:04.145 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Shutting Down | Details: {}
+2026-08-19 17:14:04.145 | INFO     | nw_rag.main:lifespan:31 - Aperture Science RAG API Shutting Down...
+2026-08-19 17:14:05.016 | INFO     | nw_rag.core.retrieval:load_index:108 - Loaded index from ./faiss_index
+2026-08-19 17:14:05.027 | INFO     | nw_rag.logging_config:log_system_event:138 - System Event: Application Starting | Details: {"version": "1.0.0", "environment": "development"}
+2026-08-19 17:14:05.027 | INFO     | nw_rag.main:lifespan:23 - ============================================================
+2026-08-19 17:14:05.027 | INFO     | nw_rag.main:lifespan:24 - Aperture Science RAG API Starting...
+2026-08-19 17:14:05.028 | INFO     | nw_rag.main:lifespan:25 - ============================================================
+2026-08-19 17:14:08.200 | INFO     | nw_rag.frontend.app:__init__:35 - Connected to RAG API
+2026-08-19 17:14:15.802 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: What is the portal gun? | Stream: False
+2026-08-19 17:14:15.807 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: ad622b2f | Question: What is the portal gun? | Stream: False
+2026-08-19 17:14:15.807 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: ad622b2f | Client: 127.0.0.1
+2026-08-19 17:14:15.807 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: 1c50a54a
+2026-08-19 17:14:15.807 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: 1c50a54a | Question: What is the portal gun? | Stream: False
+2026-08-19 17:14:15.842 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: What is the portal gun?...
+2026-08-19 17:14:15.842 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: What is the portal gun?... | Results: 3 | Time: 0.035s
+2026-08-19 17:14:15.842 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/02_portal_gun_operation.pdf | Score: 0.461 | Content: Aperture Science Handheld Portal Device (ASHPD) - Operation Manual
+Device Overview
+The Aperture Scie...
+2026-08-19 17:14:15.842 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/01_aperture_science_overview.pdf | Score: 0.626 | Content: Aperture Science: Company Overview
+Introduction
+Aperture Science is a leading research facility spec...
+2026-08-19 17:14:15.843 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/09_portal_physics.pdf | Score: 0.687 | Content: Energy Requirements
+**Formula**: E = m × c^2 × (1/2 (v^2/c^2))
+**For Portal Gun**: Requires 1.2 × 10...
+2026-08-19 17:14:18.591 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What is the portal gun?... | Response Length: 667 chars | Time: 2.748s | Prompt Tokens: 530 | Completion Tokens: 149
+2026-08-19 17:14:18.591 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 2.784s | Retrieval: 0.035s | Generation: 2.748s
+2026-08-19 17:14:18.591 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 2.784s | Retrieval: 0.035s | Generation: 2.748s
+2026-08-19 17:14:18.597 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: N/A | Question: What is the portal gun? | Stream: False
+2026-08-19 17:14:18.599 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: b668d9af | Question: What is the portal gun? | Stream: False
+2026-08-19 17:14:18.599 | DEBUG    | nw_rag.api.routes:query_endpoint:58 - RequestID: b668d9af | Client: 127.0.0.1
+2026-08-19 17:14:18.600 | DEBUG    | nw_rag.services.rag_engine:query:113 - Processing query | RequestID: c14b0128
+2026-08-19 17:14:18.600 | INFO     | nw_rag.logging_config:log_request:62 - API Request | RequestID: c14b0128 | Question: What is the portal gun? | Stream: False
+2026-08-19 17:14:18.626 | DEBUG    | nw_rag.core.retrieval:retrieve:48 - Retrieved 3 documents for query: What is the portal gun?...
+2026-08-19 17:14:18.626 | INFO     | nw_rag.logging_config:log_retrieval:71 - Retrieval | Query: What is the portal gun?... | Results: 3 | Time: 0.026s
+2026-08-19 17:14:18.627 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 1 | Source: ./docs/02_portal_gun_operation.pdf | Score: 0.461 | Content: Aperture Science Handheld Portal Device (ASHPD) - Operation Manual
+Device Overview
+The Aperture Scie...
+2026-08-19 17:14:18.627 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 2 | Source: ./docs/01_aperture_science_overview.pdf | Score: 0.626 | Content: Aperture Science: Company Overview
+Introduction
+Aperture Science is a leading research facility spec...
+2026-08-19 17:14:18.627 | DEBUG    | nw_rag.logging_config:log_retrieval:79 - Retrieval Result 3 | Source: ./docs/09_portal_physics.pdf | Score: 0.687 | Content: Energy Requirements
+**Formula**: E = m × c^2 × (1/2 (v^2/c^2))
+**For Portal Gun**: Requires 1.2 × 10...
+2026-08-19 17:14:21.339 | INFO     | nw_rag.logging_config:log_generation:89 - Generation | Query: What is the portal gun?... | Response Length: 667 chars | Time: 2.712s | Prompt Tokens: 530 | Completion Tokens: 149
+2026-08-19 17:14:21.339 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 2.739s | Retrieval: 0.026s | Generation: 2.712s
+2026-08-19 17:14:21.339 | INFO     | nw_rag.logging_config:log_query_complete:109 - Query Complete | Confidence: 0.461 | Fallback: False | Sources: 3 | Total Time: 2.739s | Retrieval: 0.026s | Generation: 2.712s

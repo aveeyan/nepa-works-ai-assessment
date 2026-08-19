@@ -1,0 +1,67 @@
+# Aperture Science Emergency Evacuation Protocol
+
+## Overview
+This document outlines emergency procedures for all Enrichment Center personnel and test subjects. Memorize these protocols for your safety.
+
+## Emergency Types
+
+### Class 1: Fire
+- **Response**: Immediate evacuation
+- **Alarm**: Continuous siren (High pitch)
+- **Assembly Point**: Main reception area
+
+### Class 2: Neurotoxin Leak
+- **Response**: Seal all testing chambers
+- **Alarm**: Warning beep pattern (3-beep sequence)
+- **Assembly Point**: Roof level emergency platform
+- **Duration**: Remains active until GLaDOS declares safe
+
+### Class 3: Portal Instability
+- **Response**: Cease all portal usage
+- **Alarm**: Distinctive "Portal malfunction" voice announcement
+- **Assembly Point**: Portal-free zone (Specified by AI)
+
+### Class 4: GLaDOS Malfunction
+- **Response**: Proceed to emergency testing chamber
+- **Alarm**: GLaDOS voice: "This is a test"
+- **Assembly Point**: Designated by Morality Core
+
+## Evacuation Steps
+
+### Step 1: Alert
+- Announce emergency type over PA system
+- Activate proper evacuation alarm
+- Alert GLaDOS of situation (If functional)
+
+### Step 2: Assembly
+- Move to assigned assembly point
+- Wait for role call
+- Do not use portals (Unstable during emergencies)
+
+### Step 3: Roll Call
+- Test subjects counted by AI
+- Personnel check-in with supervisor
+- Missing personnel reported immediately
+
+### Step 4: Evacuation Transportation
+- Emergency rail system (Manual override available)
+- Aerial transport (For roof-level assembly)
+- Underground tunnel network (Only for authorized personnel)
+
+## Required Emergency Equipment
+
+### Personnel Kit
+1. Emergency portal device (Standard or blue/orange)
+2. Light-bearing headgear
+3. Emergency whistle (For location signaling)
+4. Jump-jets (If available in your sector)
+
+### Test Subject Kit
+1. Longer-fall boots (Emergency variant)
+2. Stress-relief companion cube (Pocket-sized)
+3. GLaDOS evacuation pass (Show when safe)
+
+## Important Notes
+- During Class 2 Neurotoxin events, immediately seal all access points
+- Do not engage GLaDOS during Class 4 malfunctions
+- Emergency cake is available at assembly point (Subject to availability)

@@ -1,0 +1,74 @@
+# Aperture Science Test Chamber Construction Guidelines
+
+## Purpose
+This document provides technical specifications for constructing standard and advanced test chambers within the Enrichment Center.
+
+## Chamber Types
+
+### Standard Test Chamber
+- **Dimensions**: 20m x 20m x 10m
+- **Features**: One button, one pressure plate, basic portal surfaces
+- **Difficulty**: Introductory (1/5 rating)
+
+### Advanced Test Chamber
+- **Dimensions**: 30m x 30m x 15m
+- **Features**: Multiple buttons, moving platforms, energy pellets
+- **Difficulty**: Advanced (3/5 rating)
+
+### GLaDOS-Controlled Chamber
+- **Dimensions**: Variable (AI-specified)
+- **Features**: Adaptive layout, dynamic obstacles, emotional manipulation
+- **Difficulty**: Variable (AI adjusts)
+
+## Construction Materials
+- **Walls**: Aperture Science Portal-Enabled Panels
+- **Floors**: Non-slip, high-durability composite
+- **Ceilings**: Reinforced steel grating
+- **Portal Surfaces**: Moon-dust based coating (Patented)
+
+## Step-by-Step Construction
+
+### Step 1: Foundation
+1. Clear area (Radius: 25m minimum)
+2. Install floor panels (Must be perfectly level)
+3. Lay electrical conduits
+4. Connect power grid (Requires 10,000 kW)
+
+### Step 2: Wall Installation
+1. Erect wall frames
+2. Attach portal-enabled panels
+3. Seal all seams
+4. Test surface integrity
+
+### Step 3: Automation Setup
+1. Install pressure plate sensors
+2. Wire button activation mechanisms
+3. Set up moving platform paths
+4. Calibrate timing sequences
+
+### Step 4: AI Integration
+1. Connect to GLaDOS network
+2. Upload chamber design data
+3. Run diagnostic tests
+4. Obtain final AI approval
+
+## Testing Chamber Verification
+
+### Checklist
+- [ ] All walls are portal-able
+- [ ] Buttons activate correct outputs
+- [ ] Time sequences function precisely
+- [ ] No escape routes (Unless intended)
+- [ ] GLaDOS can observe without interference
+
+### Testing Protocol
+- Run 50 test scenarios
+- Ensure 98% puzzle completion rate
+- Verify safety mechanisms
+- Adjust difficulty based on test subject performance
+
+## Special Considerations
+- Keep companion cube access points open
+- Ensure weight cubes are available nearby
+- Test chamber near emergency exit (Especially for new subjects)
+- Monitor for "Chell" arrival (Special handling required)

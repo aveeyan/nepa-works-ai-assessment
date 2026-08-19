@@ -1,0 +1,43 @@
+# Aperture Science Handheld Portal Device (ASHPD) - Operation Manual
+
+## Device Overview
+The Aperture Science Handheld Portal Device, colloquially known as the "Portal Gun," is a revolutionary tool for creating stable wormholes between two surfaces.
+
+## Key Components
+- Primary Firing Mechanism (Blue Portal)
+- Secondary Firing Mechanism (Orange Portal)
+- Quantum Tunneling Core
+- Energy Stabilization Matrix
+- Safety Lock (Activates when aimed at non-portal surfaces)
+
+## Operating Instructions
+
+### Step 1: Power On
+- Press the green activation button on the handle
+- Wait for the quantum core to stabilize (approximately 3 seconds)
+- A blue indicator light confirms operational status
+
+### Step 2: Firing Primary Portal
+- Aim at any moon-dusted, white-painted surface
+- Squeeze the primary trigger (blue button)
+- Portal will appear with a distinctive sound signature
+
+### Step 3: Firing Secondary Portal
+- Aim at another suitable surface
+- Squeeze the secondary trigger (orange button)
+- Both portals will now be connected
+
+### Step 4: Portal Travel
+- Step through any portal to instantly emerge from the other
+- Momentum is preserved during transit
+
+## Important Precautions
+- NEVER point the device at living subjects
+- DO NOT attempt to create portals in non-permitted areas
+- ALWAYS maintain minimum 2-meter distance from portal edges
+- WARNING: Portal surfaces must be clean and dry for proper adhesion
+
+## Maintenance Schedule
+- Daily: Clean quantum tunneling lens
+- Weekly: Calibrate energy matrix
+- Monthly: Full diagnostic scan required

@@ -1,1 +1,13 @@
-# Injection / Parsing
+# requirements.txt
+
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-ollama
+langchain-text-splitters
+faiss-cpu
+python-dotenv
+pypdf
+loguru
+gradio

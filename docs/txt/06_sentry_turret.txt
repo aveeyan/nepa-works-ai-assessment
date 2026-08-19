@@ -1,0 +1,76 @@
+# Aperture Science Sentry Turret: Operation and Maintenance
+
+## System Introduction
+The Aperture Science Sentry Turret is a fully automated defense system with advanced targeting algorithms and a friendly personality subroutines.
+
+## Technical Specifications
+- **Height**: 0.8 meters (standard model)
+- **Armament**: .45 ACP rounds (Variable velocity settings)
+- **Targeting**: Laser-guided motion tracking
+- **AI Personality**: Friendly, helpful, slightly maternal
+- **Power Source**: Portable battery (72-hour runtime)
+
+## Activation Sequence
+
+### Step 1: Deployment
+- Remove from storage casing
+- Place on flat surface
+- Ensure 3-meter clearance radius
+
+### Step 2: Boot Sequence
+- Press power button (rear panel)
+- Listen for "Activated" voice confirmation
+- Allow targeting laser calibration (5 seconds)
+
+### Step 3: Targeting Configuration
+- Set engagement range (Default: 25 meters)
+- Configure threat identification protocol
+- Upload target data if required
+
+## Operation Guidelines
+
+### Friendly Mode
+- Question-based targeting: "Are you still there?"
+- Non-lethal warning shots
+- Retreat if test subject appears friendly
+
+### Combat Mode
+- Full engagement on threat detection
+- Voice warning: "I don't blame you"
+- Precision targeting (95% accuracy)
+
+## Voice Commands
+
+### Standard Phrases
+- "Hello" : Welcome response
+- "Activate" : Engage targeting
+- "Deactivate" : Safe shutdown
+- "Who are you?" : Personality introduction
+
+### Emergency Commands
+- "Hold fire" : Ceases all engagement
+- "Reset" : Factory reset sequence
+- "Self-destruct" : Two-second shutdown (DO NOT USE)
+
+## Maintenance Schedule
+- **Daily**: Clean targeting lens
+- **Weekly**: Test voice modulation
+- **Monthly**: Live-fire calibration
+- **Quarterly**: Full AI personality reset
+
+## Troubleshooting
+
+### Targeting Issues
+- Recalibrate laser system
+- Replace optical sensors if damaged
+- Update targeting firmware
+
+### Voice Activation Problems
+- Check microphone array
+- Reinstall voice module
+- Perform vocal cord simulation test
+
+## Important Warnings
+- NEVER stand in front of active turret
+- DO NOT modify personality subroutines
+- Keep away from test subjects named Chell (Known glitch)

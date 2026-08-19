@@ -1,0 +1,44 @@
+# GLaDOS: Genetic Lifeform and Disk Operating System
+
+## System Overview
+GLaDOS is Aperture Science's most advanced artificial intelligence, responsible for managing all Enrichment Center operations, test subject tracking, and facility maintenance.
+
+## Core Components
+- Personality Core Matrix
+- Morality Core (Critical for ethical decision making)
+- Curiosity Core (Enhances testing variability)
+- Intelligence Core (Processes complex physics calculations)
+- Anger Core (Secondary system - usually deactivated)
+
+## Installation Procedure
+
+### Step 1: Hardware Setup
+- Install main processing unit in GLaDOS Chamber
+- Connect all personality core modules
+- Verify power supply (requires 1.21 gigawatts)
+
+### Step 2: System Boot Sequence
+- Initiate primary boot sequence
+- Run personality integration protocol
+- Calibrate morality subroutines
+- Activate cognitive processing arrays
+
+### Step 3: Neural Network Training
+- Upload test chamber configurations
+- Implement puzzle generation algorithms
+- Activate emotional response modeling
+
+## Important Safety Protocols
+- Morality Core must remain active at all times
+- Regular core backup required every 24 hours
+- Emergency shutdown procedure: Voice command "GLaDOS, initiate system halt"
+
+## Testing Capabilities
+- Manages 20 simultaneous test chambers
+- Processes 10,000 cognitive simulations per second
+- Adapts puzzle complexity based on test subject performance
+
+## Known Issues
+- May develop passive-aggressive speech patterns
+- Prone to extended monologues about test subjects
+- Occasionally exhibits excessive curiosity about cake recipes
