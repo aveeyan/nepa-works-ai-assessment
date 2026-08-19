@@ -1,4 +1,3 @@
-```markdown
 # Aperture Science RAG API
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
@@ -210,4 +209,3 @@ loguru==0.7.2
 ---
 
 **Aperture Science** - We do what we must because we can.
-```
